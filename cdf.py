@@ -52,7 +52,7 @@ def convert_8u(image,minvalue,maxvalue):
     image = np.uint8(image)
     return image
 
-fn = 'C:\\ProyectoDeGrado\\ImaganesMapeadas\\2002mapped'       #mascara de año
+fn = 'C:\\Users\karlo\\OneDrive\\Escritorio\\interfz\\pruebainterfaz\\'      #mascara de año
 os.chdir(fn)
 os.getcwd() 
 lista=glob.glob("*.nc")
